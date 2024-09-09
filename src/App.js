@@ -33,10 +33,10 @@ export default function App() {
   }
   return (
     <>
-			<div className="bg-slate-50 text-emerald-900">
+			<div id="home" className="bg-slate-50 text-emerald-900">
 				
 				<Navbar />
-				<div className="app-section" id="home">
+				<div className="app-section">
 					{/* <HomePage /> */}
 					<HeroSection />
 				</div>
