@@ -3,7 +3,7 @@ import "./ProjectPage.css";
 
 const ProjectPage = () => {
   return (
-    <div className="project-container">
+    <div className="project-container my-container px-8 lg:px-4 ">
       <div className="project-header">
         <span>pro</span>jects
       </div>

@@ -15,7 +15,6 @@
 }
 
 .about-container {
-  color: white;
   display: flex;
   flex-direction: column;
 }
@@ -26,7 +25,7 @@
 }
 
 .about-header > span {
-  color: var(--section-color);
+  color: var(--highlight-color);
 }
 
 .about-info {
@@ -46,7 +45,6 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  color: var(--section-grey-color);
 }
 
 .about-right > p {
@@ -54,6 +52,5 @@
 }
 
 .about-right > p > span {
-  color: white;
   font-weight: 700;
 }

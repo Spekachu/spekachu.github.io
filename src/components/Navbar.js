@@ -2,89 +2,95 @@ import React, { useState } from "react";
 import { Link } from "react-scroll";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
-import "./Navbar.css";
+// import "./Navbar.css";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <div className="navbar-container">
-      <div className="navbar-left">
-        <Link to="home" spy={true} smooth={true} duration={500}>
-          spencer.johnson
-        </Link>
-      </div>
-      <div className="navbar-right-menubar">
-        {isMenuOpen ? (
-          <div className="navbar-menu-options">
-            <CloseIcon onClick={() => setIsMenuOpen(!isMenuOpen)} />
-            <Link
-              onClick={() => setIsMenuOpen(!isMenuOpen)}
-              to="home"
-              spy={true}
-              smooth={true}
-              duration={500}
-            >
-              home
-            </Link>
-            <Link
-              onClick={() => setIsMenuOpen(!isMenuOpen)}
-              to="about"
-              spy={true}
-              smooth={true}
-              duration={500}
-            >
-              about
-            </Link>
-            <Link
-              onClick={() => setIsMenuOpen(!isMenuOpen)}
-              to="skills"
-              spy={true}
-              smooth={true}
-              duration={500}
-            >
-              skills
-            </Link>
-            <Link
-              onClick={() => setIsMenuOpen(!isMenuOpen)}
-              to="projects"
-              spy={true}
-              smooth={true}
-              duration={500}
-            >
-              projects
-            </Link>
-            <Link
-              onClick={() => setIsMenuOpen(!isMenuOpen)}
-              to="contact"
-              spy={true}
-              smooth={true}
-              duration={500}
-            >
-              contact
-            </Link>
-          </div>
-        ) : (
-          <MenuIcon onClick={() => setIsMenuOpen(!isMenuOpen)} />
-        )}
-      </div>
-      <div className="navbar-right-options">
-        <Link to="home" spy={true} smooth={true} duration={500}>
-          home
-        </Link>
-        <Link to="about" spy={true} smooth={true} duration={500}>
-          about
-        </Link>
-        <Link to="skills" spy={true} smooth={true} duration={500}>
-          skills
-        </Link>
-        <Link to="projects" spy={true} smooth={true} duration={500}>
-          projects
-        </Link>
-        <Link to="contact" spy={true} smooth={true} duration={500}>
-          contact
-        </Link>
-      </div>
-    </div>
+		<div className="bg-slate-50/75 backdrop-blur-md sticky top-0 z-10">
+			<div className="my-container px-8 lg:px-4 py-4 mx-auto flex justify-between">
+				<div className="">
+					<Link to="home" spy={true} smooth={true} duration={500}>
+						spencer.johnson
+					</Link>
+				</div>
+				<div className="md:hidden">
+					{isMenuOpen ? (
+						<div className="fixed w-dvw right-0 top-0 text-right flex flex-col items-end h-dvh bg-slate-50/95 p-4">
+							<CloseIcon onClick={() => setIsMenuOpen(!isMenuOpen)} />
+							<div className="flex flex-col justify-around min-h-[50dvh]">
+								<Link
+									onClick={() => setIsMenuOpen(!isMenuOpen)}
+									to="home"
+									spy={true}
+									smooth={true}
+									duration={500}
+								>
+									home
+								</Link>
+								<Link
+									onClick={() => setIsMenuOpen(!isMenuOpen)}
+									to="about"
+									spy={true}
+									smooth={true}
+									duration={500}
+								>
+									about
+								</Link>
+								<Link
+									onClick={() => setIsMenuOpen(!isMenuOpen)}
+									to="skills"
+									spy={true}
+									smooth={true}
+									duration={500}
+								>
+									skills
+								</Link>
+								<Link
+									onClick={() => setIsMenuOpen(!isMenuOpen)}
+									to="projects"
+									spy={true}
+									smooth={true}
+									duration={500}
+								>
+									projects
+								</Link>
+								<Link
+									onClick={() => setIsMenuOpen(!isMenuOpen)}
+									to="contact"
+									spy={true}
+									smooth={true}
+									duration={500}
+								>
+									contact
+								</Link>
+
+							</div>
+						</div>
+					) : (
+						<MenuIcon onClick={() => setIsMenuOpen(!isMenuOpen)} />
+					)}
+				</div>
+				<div className="navbar-right-options justify-between hidden md:flex">
+					<Link className="px-2" to="home" spy={true} smooth={true} duration={500}>
+						home
+					</Link>
+					<Link className="px-2" to="about" spy={true} smooth={true} duration={500}>
+						about
+					</Link>
+					<Link className="px-2" to="skills" spy={true} smooth={true} duration={500}>
+						skills
+					</Link>
+					<Link className="px-2" to="projects" spy={true} smooth={true} duration={500}>
+						projects
+					</Link>
+					<Link className="px-2" to="contact" spy={true} smooth={true} duration={500}>
+						contact
+					</Link>
+				</div>
+			</div>
+			
+		</div>
   );
 };
 

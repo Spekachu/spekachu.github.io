@@ -1,20 +1,18 @@
-@media only screen and (max-width: 800px) {
-  .contact-header {
-    font-size: var(--section-heading-size-mobile) !important;
-  }
-  .contact-info {
-    flex-direction: column;
-  }
 
-  .contact-left,
-  .contact-right {
-    width: 100% !important;
-    margin-bottom: 30px;
-  }
+.contact-header {
+	font-size: var(--section-heading-size-mobile) !important;
+}
+.contact-info {
+	flex-direction: column;
+}
+
+.contact-left,
+.contact-right {
+	width: 100% !important;
+	margin-bottom: 30px;
 }
 
 .contact-container {
-  color: white;
   display: flex;
   flex-direction: column;
 }
@@ -25,7 +23,7 @@
 }
 
 .contact-header span {
-	color: var(--section-color);
+	color: var(--highlight-color);
 }
 
 .contact-info {
@@ -40,7 +38,6 @@
 }
 
 .contact-left > span {
-  color: var(--section-grey-color);
   font-style: italic;
 }
 
@@ -77,10 +74,4 @@
 .contact-form-group {
   display: flex;
   flex-direction: column;
-}
-
-.contact-form-button {
-  width: 70px;
-  height: 30px;
-  font-weight: 500;
 }

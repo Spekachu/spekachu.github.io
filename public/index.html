@@ -39,7 +39,7 @@
       window.onload = function () {
         try {
           TagCanvas.Start("myCanvas", "tags", {
-            textColour: "#ffffff",
+            textColour: "#064e3b",
             outlineColour: "none",
             textFont: '"Poppins", sans-serif',
             maxSpeed: 0.025,
@@ -47,7 +47,7 @@
             noSelect: true,
             textHeight: 17,
             initial: [0.24, 0.26],
-            zoomMax: 1,
+            wheelZoom: false
           });
         } catch (e) {
           // something went wrong, hide the canvas container

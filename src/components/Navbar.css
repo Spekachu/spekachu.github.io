@@ -12,7 +12,6 @@
 }
 
 .navbar-container {
-  color: white;
   width: 95vw;
   display: flex;
   justify-content: space-between;
@@ -29,14 +28,13 @@
 }
 
 .navbar-right-options {
-  color: var(--section-grey-color);
   width: 40%;
   display: flex;
   justify-content: space-between;
 }
 
 .navbar-right-options > a:hover {
-  color: var(--section-color) !important;
+  color: var(--highlight-color) !important;
 }
 
 .navbar-right-menubar {

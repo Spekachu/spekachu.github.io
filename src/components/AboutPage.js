@@ -3,7 +3,7 @@ import "./AboutPage.css";
 
 const AboutPage = () => {
 	return (
-		<div className="about-container">
+		<div className="about-container my-container px-8 lg:px-4">
 			<div className="about-header">
 				ab<span>out</span>
 			</div>
@@ -12,9 +12,6 @@ const AboutPage = () => {
 					I love to create simple and clean web apps.
 				</div>
 				<div className="about-right">
-					<p>
-						I'm Spencer Johnson. I am a <span>Software Developer</span>.
-					</p>
 					<p>
 						I am a versatile Web Developer with a strong foundation in front-end development. I am
 						always eager to learn new technologies. I am mainly self-taught and highly motivated to

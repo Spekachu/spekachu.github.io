@@ -1,4 +1,4 @@
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1100px) {
   .skill-header {
     font-size: var(--section-heading-size-mobile) !important;
   }
@@ -20,28 +20,24 @@
 }
 
 .skill-container {
-  color: white;
   display: flex;
 }
 
 .skill-header {
   font-size: var(--section-heading-size);
-  margin-bottom: 30px;
   letter-spacing: var(--heading-letter-spacing);
 }
 
 .skill-header > span {
-  color: var(--section-color);
+  color: var(--highlight-color);
 }
 
 .skill-right {
-  opacity: 0.8;
-  color: white;
-  width: 40%;
+  width: 60%;
 }
 
 .skill-left {
-  width: 50%;
+  width: 40%;
   font-size: var(--section-sub-heading-size) !important;
   display: flex;
   flex-direction: column;

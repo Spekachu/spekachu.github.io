@@ -4,14 +4,14 @@ import "./EducationPage.css";
 
 const EducationPage = () => {
   return (
-    <div className="education-container">
+    <div className="education-container my-container px-8 lg:px-4 ">
       <div className="education-header">
         <p><span>exp</span>erience</p>
       </div>
       <div className="education-list">
         <div className="education">
           <p>Impartner</p>
-					<details>
+					<details open>
 						<summary>
 							Web Developer / Technical Account Manager
 						</summary>

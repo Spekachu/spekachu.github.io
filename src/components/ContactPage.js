@@ -55,7 +55,7 @@ const ContactPage = () => {
   };
 
   return (
-    <div className="contact-container">
+    <div className="contact-container my-container px-8 lg:px-4 pb-16">
       <ToastContainer
         position="top-right"
         autoClose={3000}
@@ -117,7 +117,7 @@ const ContactPage = () => {
                 onChange={(e) => setMessage(e.target.value)}
               />
             </div>
-            <button className="contact-form-button" type="submit">
+            <button className="btn bg-white p-2 rounded-lg w-32 hover:bg-emerald-900 hover:text-white" type="submit">
               Send
             </button>
           </form>

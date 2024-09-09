@@ -3,7 +3,8 @@ import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 import "./App.css";
 import AboutPage from "./components/AboutPage";
 import ContactPage from "./components/ContactPage";
-import HomePage from "./components/HomePage";
+import Navbar from "./components/Navbar";
+import HeroSection from "./components/HeroSection";
 import ProjectPage from "./components/ProjectPage";
 import SkillPage from "./components/SkillPage";
 import EducationPage from "./components/EducationPage";
@@ -32,30 +33,35 @@ export default function App() {
   }
   return (
     <>
-      <div className="app-section" id="home">
-        <HomePage />
-      </div>
-      <div className="app-section" id="about">
-        <AboutPage />
-      </div>
-      <div className="app-section" id="skills">
-        <SkillPage />
-      </div>
-      <div className="app-section" id="projects">
-        <ProjectPage />
-      </div>
-      <div className="app-section">
-        <EducationPage />
-      </div>
-      <div className="app-section-contact" id="contact">
-        <ContactPage />
-      </div>
-      {showBackToTopBtn && (
-        <button className="btn-back-to-top" onClick={scrollToTop}>
-          <span> Back to Top</span>
-          <ArrowUpwardIcon />
-        </button>
-      )}
+			<div className="bg-slate-50 text-emerald-900">
+				
+				<Navbar />
+				<div className="app-section" id="home">
+					{/* <HomePage /> */}
+					<HeroSection />
+				</div>
+				<div className="app-section" id="about">
+					<AboutPage />
+				</div>
+				<div className="app-section" id="skills">
+					<SkillPage />
+				</div>
+				<div className="app-section" id="projects">
+					<ProjectPage />
+				</div>
+				<div className="app-section">
+					<EducationPage />
+				</div>
+				<div className="app-section" id="contact">
+					<ContactPage />
+				</div>
+				{showBackToTopBtn && (
+					<button className="btn btn-back-to-top hover:bg-emerald-900 hover:text-white" onClick={scrollToTop}>
+						<span className="text-sm"> Back to Top</span>
+						<ArrowUpwardIcon />
+					</button>
+				)}
+			</div>
     </>
   );
 }

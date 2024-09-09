@@ -3,7 +3,7 @@ import "./SkillPage.css";
 
 const SkillPage = () => {
   return (
-    <div className="skill-container">
+    <div className="skill-container my-container px-8 lg:px-4">
       <div className="skill-left">
         <div className="skill-header">
           <span>ski</span>lls

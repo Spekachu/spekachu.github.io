@@ -1,10 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 * {
   font-family: "Poppins", sans-serif;
   margin: 0;
 }
 
 body {
-  background-color: #2f3236;
   width: 100%;
 }
 
@@ -37,24 +39,4 @@ a {
   text-decoration: none;
   color: inherit;
   cursor: pointer;
-}
-
-/* width */
-::-webkit-scrollbar {
-  width: 5px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #383838;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #888;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
 }

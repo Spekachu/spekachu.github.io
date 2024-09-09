@@ -8,7 +8,6 @@
 }
 
 .project-container {
-  color: white;
   display: flex;
   flex-direction: column;
 }
@@ -19,7 +18,7 @@
 }
 
 .project-header > span {
-  color: var(--section-color);
+  color: var(--highlight-color);
 }
 
 .project {
@@ -32,7 +31,6 @@
 
 .project > p:nth-child(1) {
   font-size: 0.9rem;
-  color: var(--section-grey-color);
 }
 
 .project > p:nth-child(2) {
@@ -45,7 +43,6 @@
   justify-content: space-between;
   width: 100%;
   font-size: 0.9rem;
-  color: var(--section-grey-color);
   padding: 5px 0px;
   border-bottom: 1px solid rgb(87, 86, 86);
 }
@@ -54,7 +51,7 @@
   text-decoration: none;
 }
 
-a {
+.education a {
   display: flex;
   justify-content: center;
 }
