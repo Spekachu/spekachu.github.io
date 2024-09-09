@@ -2,25 +2,6 @@
   .skill-header {
     font-size: var(--section-heading-size-mobile) !important;
   }
-  .skill-container {
-    flex-direction: column;
-  }
-  #myCanvasContainer > canvas {
-		aspect-ratio: 1;
-		height: auto;
-		width: 100%;
-  }
-  .skill-right,
-  .skill-left {
-    width: 100% !important;
-  }
-  .skill-left > p {
-    margin-bottom: 50px;
-  }
-}
-
-.skill-container {
-  display: flex;
 }
 
 .skill-header {
@@ -30,17 +11,4 @@
 
 .skill-header > span {
   color: var(--highlight-color);
-}
-
-.skill-right {
-  width: 60%;
-}
-
-.skill-left {
-  width: 40%;
-  font-size: var(--section-sub-heading-size) !important;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
 }

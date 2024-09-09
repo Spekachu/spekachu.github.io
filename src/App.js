@@ -36,23 +36,23 @@ export default function App() {
 			<div id="home" className="bg-slate-50 text-emerald-900">
 				
 				<Navbar />
-				<div className="app-section">
+				<div className="app-section sm:pt-8">
 					{/* <HomePage /> */}
 					<HeroSection />
 				</div>
-				<div className="app-section" id="about">
+				<div className="app-section pt-16" id="about">
 					<AboutPage />
 				</div>
-				<div className="app-section" id="skills">
+				<div className="app-section pt-16" id="skills">
 					<SkillPage />
 				</div>
-				<div className="app-section" id="projects">
+				<div className="app-section pt-16" id="projects">
 					<ProjectPage />
 				</div>
-				<div className="app-section">
+				<div className="app-section pt-16">
 					<EducationPage />
 				</div>
-				<div className="app-section" id="contact">
+				<div className="app-section pt-16" id="contact">
 					<ContactPage />
 				</div>
 				{showBackToTopBtn && (

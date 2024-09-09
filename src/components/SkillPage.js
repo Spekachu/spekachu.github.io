@@ -4,113 +4,84 @@ import "./SkillPage.css";
 const SkillPage = () => {
   return (
     <div className="skill-container my-container px-8 lg:px-4">
-      <div className="skill-left">
-        <div className="skill-header">
-          <span>ski</span>lls
-        </div>
-        <p>
-          I'm always looking forward to improving my skills.
-        </p>
-      </div>
-      <div className="skill-right">
-        <div id="myCanvasContainer">
-          <canvas width="600" height="600" id="myCanvas"></canvas>
-        </div>
-        <div id="tags">
-          <ul>
-            <li>
-              <a href="/skills">javascript</a>
-            </li>
-            <li>
-              <a href="/skills">react</a>
-            </li>
-            <li>
-              <a href="/skills">html</a>
-            </li>
-            <li>
-              <a href="/skills">css</a>
-            </li>
-            <li>
-              <a href="/skills">C#</a>
-            </li>
-            <li>
-              <a href="/skills">github</a>
-            </li>
-            <li>
-              <a href="/skills">vs code</a>
-            </li>
-            <li>
-              <a href="/skills">docker</a>
-            </li>
-            <li>
-              <a href="/skills">ASP.NET</a>
-            </li>
-            <li>
-              <a href="/skills">wordpress</a>
-            </li>
-            <li>
-              <a href="/skills">algorithms</a>
-            </li>
-            <li>
-              <a href="/skills">react-routing</a>
-            </li>
-            <li>
-              <a href="/skills">react</a>
-            </li>
-            <li>
-              <a href="/skills">es6+</a>
-            </li>
-            <li>
-              <a href="/skills">data structures</a>
-            </li>
-            <li>
-              <a href="/skills">react</a>
-            </li>
-            <li>
-              <a href="/skills">html</a>
-            </li>
-            <li>
-              <a href="/skills">scss</a>
-            </li>
-            <li>
-              <a href="/skills">php</a>
-            </li>
-            <li>
-              <a href="/skills">github</a>
-            </li>
-            <li>
-              <a href="/skills">vs code</a>
-            </li>
-            <li>
-              <a href="/skills">mobile</a>
-            </li>
-            <li>
-              <a href="/skills">Next.js</a>
-            </li>
-            <li>
-              <a href="/skills">frontend</a>
-            </li>
-            <li>
-              <a href="/skills">responsive</a>
-            </li>
-            <li>
-              <a href="/skills">react</a>
-            </li>
-            <li>
-              <a href="/skills">jQuery</a>
-            </li>
-            <li>
-              <a href="/skills">bootstrap</a>
-            </li>
-            <li>
-              <a href="/skills">tailwind</a>
-            </li>
-            <li>
-              <a href="/skills">REST APIs</a>
-            </li>
-          </ul>
-        </div>
-      </div>
+			<div className="skill-header">
+				<span>ski</span>lls
+			</div>
+			<div>
+				<div className="mb-8">
+					<h2 className="text-2xl font-bold mb-4">Programming Languages</h2>
+					<ul className="flex flex-wrap gap-4">
+						<li className="bg-gray-200 p-2 rounded">JavaScript</li>
+						<li className="bg-gray-200 p-2 rounded">C#</li>
+						<li className="bg-gray-200 p-2 rounded">PHP</li>
+					</ul>
+				</div>
+
+				<div className="mb-8">
+					<h2 className="text-2xl font-bold mb-4">Web Development</h2>
+					<div className="mb-6">
+						<h3 className="text-xl mb-2 ">Frontend Development</h3>
+						<ul className="flex flex-wrap gap-4">
+							<li className="bg-gray-200 p-2 rounded">HTML</li>
+							<li className="bg-gray-200 p-2 rounded">CSS</li>
+							<li className="bg-gray-200 p-2 rounded">SCSS</li>
+							<li className="bg-gray-200 p-2 rounded">JavaScript (ES6+)</li>
+							<li className="bg-gray-200 p-2 rounded">React</li>
+							<li className="bg-gray-200 p-2 rounded">React Routing</li>
+							<li className="bg-gray-200 p-2 rounded">Next.js</li>
+							<li className="bg-gray-200 p-2 rounded">jQuery</li>
+							<li className="bg-gray-200 p-2 rounded">Bootstrap</li>
+							<li className="bg-gray-200 p-2 rounded">Tailwind</li>
+						</ul>
+					</div>
+					<div className="mb-6">
+						<h3 className="text-xl mb-2 ">Backend Development</h3>
+						<ul className="flex flex-wrap gap-4">
+							<li className="bg-gray-200 p-2 rounded">ASP.NET</li>
+							<li className="bg-gray-200 p-2 rounded">PHP</li>
+						</ul>
+					</div>
+					<div>
+						<h3 className="text-xl mb-2 ">Content Management</h3>
+						<ul className="flex flex-wrap gap-4">
+							<li className="bg-gray-200 p-2 rounded">WordPress</li>
+						</ul>
+					</div>
+				</div>
+
+				<div className="mb-8">
+					<h2 className="text-2xl font-bold mb-4">Development Tools</h2>
+					<ul className="flex flex-wrap gap-4">
+						<li className="bg-gray-200 p-2 rounded">GitHub</li>
+						<li className="bg-gray-200 p-2 rounded">VS Code</li>
+						<li className="bg-gray-200 p-2 rounded">Docker</li>
+						<li className="bg-gray-200 p-2 rounded">LocalWP</li>
+					</ul>
+				</div>
+
+				<div className="mb-8">
+					<h2 className="text-2xl font-bold mb-4">Frameworks & Libraries</h2>
+					<ul className="flex flex-wrap gap-4">
+						<li className="bg-gray-200 p-2 rounded">React</li>
+						<li className="bg-gray-200 p-2 rounded">Next.js</li>
+						<li className="bg-gray-200 p-2 rounded">Bootstrap</li>
+						<li className="bg-gray-200 p-2 rounded">Tailwind</li>
+						<li className="bg-gray-200 p-2 rounded">jQuery</li>
+					</ul>
+				</div>
+
+				<div className="mb-8">
+					<h2 className="text-2xl font-bold mb-4">General Programming Skills</h2>
+					<ul className="flex flex-wrap gap-4">
+						<li className="bg-gray-200 p-2 rounded">Algorithms</li>
+						<li className="bg-gray-200 p-2 rounded">Data Structures</li>
+						<li className="bg-gray-200 p-2 rounded">Responsive Design</li>
+						<li className="bg-gray-200 p-2 rounded">Mobile Development</li>
+						<li className="bg-gray-200 p-2 rounded">REST APIs</li>
+					</ul>
+				</div>
+			</div>
+
     </div>
   );
 };

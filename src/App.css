@@ -23,10 +23,6 @@
 	margin-inline: auto;
 }
 
-.app-section {
-  padding-top: var(--heading-margin);
-}
-
 .btn-back-to-top {
   position: fixed;
   bottom: 25px;
