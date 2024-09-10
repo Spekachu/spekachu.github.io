@@ -10,7 +10,7 @@ const EducationPage = () => {
       </div>
       <div className="education-list">
         <div className="education">
-          <p>Impartner</p>
+          <p><a href="https://impartner.com" target="_blank" rel="noreferrer">Impartner</a></p>
 					<details open>
 						<summary>
 							Web Developer / Technical Account Manager
@@ -43,7 +43,7 @@ const EducationPage = () => {
           </p>
         </div>
         <div className="education">
-          <p>Scorpion</p>
+          <p><a href="https://scorpion.co" target="_blank" rel="noreferrer">Scorpion</a></p>
 					<details>
 						<summary>Frontend Developer</summary>
 						<ul>

@@ -56,6 +56,8 @@ const SkillPage = () => {
 						<li className="bg-gray-200 p-2 rounded">VS Code</li>
 						<li className="bg-gray-200 p-2 rounded">Docker</li>
 						<li className="bg-gray-200 p-2 rounded">LocalWP</li>
+						<li className="bg-gray-200 p-2 rounded">Papertrail</li>
+						<li className="bg-gray-200 p-2 rounded">Filezilla</li>
 					</ul>
 				</div>
 

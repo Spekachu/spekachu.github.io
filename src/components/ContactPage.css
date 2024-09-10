@@ -1,17 +1,4 @@
 
-.contact-header {
-	font-size: var(--section-heading-size-mobile) !important;
-}
-.contact-info {
-	flex-direction: column;
-}
-
-.contact-left,
-.contact-right {
-	width: 100% !important;
-	margin-bottom: 30px;
-}
-
 .contact-container {
   display: flex;
   flex-direction: column;
@@ -27,13 +14,14 @@
 }
 
 .contact-info {
+	flex-direction: column;
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
+	gap: 2rem;
 }
 
 .contact-left {
-  width: 40%;
   font-size: 1.1rem;
 }
 
@@ -42,7 +30,6 @@
 }
 
 .contact-right {
-  width: 50%;
   font-weight: 400;
   display: flex;
   justify-content: space-between;

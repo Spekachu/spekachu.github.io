@@ -16,7 +16,7 @@ const Navbar = () => {
 				</div>
 				<div className="md:hidden">
 					{isMenuOpen ? (
-						<div className="fixed w-dvw right-0 top-0 text-right flex flex-col items-end h-dvh bg-slate-50/95 p-4">
+						<div className="fixed w-dvw right-0 top-0 text-right flex flex-col items-end h-dvh bg-slate-50/95 py-4 px-8">
 							<CloseIcon onClick={() => setIsMenuOpen(!isMenuOpen)} />
 							<div className="flex flex-col justify-around min-h-[50dvh]">
 								<Link
@@ -57,6 +57,24 @@ const Navbar = () => {
 								</Link>
 								<Link
 									onClick={() => setIsMenuOpen(!isMenuOpen)}
+									to="experience"
+									spy={true}
+									smooth={true}
+									duration={500}
+								>
+									experience
+								</Link>
+								<Link
+									onClick={() => setIsMenuOpen(!isMenuOpen)}
+									to="reviews"
+									spy={true}
+									smooth={true}
+									duration={500}
+								>
+									reviews
+								</Link>
+								<Link
+									onClick={() => setIsMenuOpen(!isMenuOpen)}
 									to="contact"
 									spy={true}
 									smooth={true}
@@ -72,9 +90,6 @@ const Navbar = () => {
 					)}
 				</div>
 				<div className="navbar-right-options justify-between hidden md:flex">
-					<Link className="px-2" to="home" spy={true} smooth={true} duration={500}>
-						home
-					</Link>
 					<Link className="px-2" to="about" spy={true} smooth={true} duration={500}>
 						about
 					</Link>
@@ -83,6 +98,12 @@ const Navbar = () => {
 					</Link>
 					<Link className="px-2" to="projects" spy={true} smooth={true} duration={500}>
 						projects
+					</Link>
+					<Link className="px-2" to="experience" spy={true} smooth={true} duration={500}>
+						experience
+					</Link>
+					<Link className="px-2" to="reviews" spy={true} smooth={true} duration={500}>
+						reviews
 					</Link>
 					<Link className="px-2" to="contact" spy={true} smooth={true} duration={500}>
 						contact

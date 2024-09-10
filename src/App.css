@@ -2,7 +2,7 @@
   --heading-margin: 4rem;
   --base-color: #064e3b;
   --highlight-color: #6ac9a2;
-  --section-heading-size: 5rem;
+  --section-heading-size: min(5rem, 10vmin);
   --section-heading-size-mobile: 3.5rem;
   --section-sub-heading-size: 1.5rem;
   --section-grey-color: rgba(255, 255, 255, 0.8);
@@ -21,6 +21,16 @@
 .my-container {
 	max-width: 55rem;
 	margin-inline: auto;
+}
+
+.section-header {
+  font-size: var(--section-heading-size);
+  letter-spacing: var(--heading-letter-spacing);
+	margin-bottom: 2rem;
+}
+
+.section-header span {
+	color: var(--highlight-color);
 }
 
 .btn-back-to-top {
