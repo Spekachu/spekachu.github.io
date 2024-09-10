@@ -44,17 +44,17 @@ export default function App() {
 				<div className="app-section pt-16" id="about">
 					<AboutPage />
 				</div>
-				<div className="app-section pt-16" id="skills">
-					<SkillPage />
-				</div>
-				<div className="app-section pt-16" id="projects">
-					<ProjectPage />
-				</div>
 				<div className="app-section pt-16" id="experience">
 					<EducationPage />
 				</div>
 				<div className="app-section pt-16" id="reviews">
 					<ReviewsSection />
+				</div>
+				<div className="app-section pt-16" id="skills">
+					<SkillPage />
+				</div>
+				<div className="app-section pt-16" id="projects">
+					<ProjectPage />
 				</div>
 				<div className="app-section pt-16" id="contact">
 					<ContactPage />

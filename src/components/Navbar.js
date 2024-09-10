@@ -11,7 +11,7 @@ const Navbar = () => {
 			<div className="my-container px-8 lg:px-4 py-4 mx-auto flex justify-between">
 				<div className="">
 					<Link to="home" spy={true} smooth={true} duration={500}>
-						spencer.johnson
+						spencer johnson
 					</Link>
 				</div>
 				<div className="md:hidden">
@@ -39,24 +39,6 @@ const Navbar = () => {
 								</Link>
 								<Link
 									onClick={() => setIsMenuOpen(!isMenuOpen)}
-									to="skills"
-									spy={true}
-									smooth={true}
-									duration={500}
-								>
-									skills
-								</Link>
-								<Link
-									onClick={() => setIsMenuOpen(!isMenuOpen)}
-									to="projects"
-									spy={true}
-									smooth={true}
-									duration={500}
-								>
-									projects
-								</Link>
-								<Link
-									onClick={() => setIsMenuOpen(!isMenuOpen)}
 									to="experience"
 									spy={true}
 									smooth={true}
@@ -72,6 +54,24 @@ const Navbar = () => {
 									duration={500}
 								>
 									reviews
+								</Link>
+								<Link
+									onClick={() => setIsMenuOpen(!isMenuOpen)}
+									to="skills"
+									spy={true}
+									smooth={true}
+									duration={500}
+								>
+									skills
+								</Link>
+								<Link
+									onClick={() => setIsMenuOpen(!isMenuOpen)}
+									to="projects"
+									spy={true}
+									smooth={true}
+									duration={500}
+								>
+									projects
 								</Link>
 								<Link
 									onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -93,17 +93,17 @@ const Navbar = () => {
 					<Link className="px-2" to="about" spy={true} smooth={true} duration={500}>
 						about
 					</Link>
-					<Link className="px-2" to="skills" spy={true} smooth={true} duration={500}>
-						skills
-					</Link>
-					<Link className="px-2" to="projects" spy={true} smooth={true} duration={500}>
-						projects
-					</Link>
 					<Link className="px-2" to="experience" spy={true} smooth={true} duration={500}>
 						experience
 					</Link>
 					<Link className="px-2" to="reviews" spy={true} smooth={true} duration={500}>
 						reviews
+					</Link>
+					<Link className="px-2" to="skills" spy={true} smooth={true} duration={500}>
+						skills
+					</Link>
+					<Link className="px-2" to="projects" spy={true} smooth={true} duration={500}>
+						projects
 					</Link>
 					<Link className="px-2" to="contact" spy={true} smooth={true} duration={500}>
 						contact
