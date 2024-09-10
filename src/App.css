@@ -2,13 +2,18 @@
   --heading-margin: 4rem;
   --base-color: #064e3b;
   --highlight-color: #6ac9a2;
-  --section-heading-size: min(5rem, 10vmin);
+  --section-heading-size: 5rem;
   --section-heading-size-mobile: 3.5rem;
   --section-sub-heading-size: 1.5rem;
   --section-grey-color: rgba(255, 255, 255, 0.8);
   --heading-letter-spacing: -3px;
 }
 
+.section-header {
+  font-size: var(--section-heading-size);
+  letter-spacing: var(--heading-letter-spacing);
+	margin-bottom: 2rem;
+}
 @media only screen and (max-width: 800px) {
   .btn-back-to-top > span {
     display: none;
@@ -17,17 +22,15 @@
   .btn-back-to-top {
     width: 30px !important;
   }
+	.section-header {
+		font-size: var(--section-heading-size-mobile);
+	}
 }
 .my-container {
 	max-width: 55rem;
 	margin-inline: auto;
 }
 
-.section-header {
-  font-size: var(--section-heading-size);
-  letter-spacing: var(--heading-letter-spacing);
-	margin-bottom: 2rem;
-}
 
 .section-header span {
 	color: var(--highlight-color);

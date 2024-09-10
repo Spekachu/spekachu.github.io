@@ -67,7 +67,7 @@ const ContactPage = () => {
         draggable
         pauseOnHover
       />
-      <div className="contact-header">cont<span>act</span></div>
+      <div className="section-header">cont<span>act</span></div>
       <div className="contact-info">
 				<div className="contact-left">
 					<p>I am open to work!</p>
