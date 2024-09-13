@@ -10,7 +10,7 @@ const EducationPage = () => {
       </div>
       <div className="education-list">
         <div className="education">
-          <p><a href="https://impartner.com" target="_blank" rel="noreferrer">Impartner</a></p>
+          <p className="text-lg"><a href="https://impartner.com" target="_blank" rel="noreferrer">Impartner</a></p>
 					<details open>
 						<summary>
 							Web Developer / Technical Account Manager
@@ -67,13 +67,13 @@ const EducationPage = () => {
         </div>
         <div className="my-12">
 					<div className="mb-12">
-						<p className="text-3xl font-bold mb-4">
-							Certifications
-						</p>
+						<div className="section-header">
+							<p><span>cert</span>ifications</p>
+							<p className="text-base lg:text-lg text-stone-900 leading-relaxed mt-2">
+								Over the years, I have pursued self-education through various online platforms, including CodeSignal, FreeCodeCamp, The Odin Project, countless YouTube tutorials, and of course now ChatGPT and AI are fantastic tools for learning. Below are some of the certifications I've earned along the way:
+							</p>
+						</div>
 						
-						<p className="text-lg lg:text-xl text-stone-900 leading-relaxed mb-8">
-							Over the years, I have pursued self-education through various online platforms, including FreeCodeCamp and The Odin Project. Below are some of the certifications I've earned along the way:
-						</p>
 					</div>
 
 
@@ -81,42 +81,42 @@ const EducationPage = () => {
 						{/* Certificate 1 */}
 						<div className="cert shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-lg overflow-hidden">
 							<a href="https://learn.codesignal.com/certificates/cm0ezx2je001khgzalxcunriy/course-paths/10" target="_blank" rel="noopener noreferrer">
-								<img src="/assets/algo-certificate.png" alt="Mastering Algorithms and Data Structures in JavaScript" className="w-64 h-auto" />
+								<img src="/assets/certs/algo-certificate.png" alt="Mastering Algorithms and Data Structures in JavaScript" className="w-64 h-auto" />
 							</a>
 						</div>
 
 						{/* Certificate 2 */}
 						<div className="cert shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-lg overflow-hidden">
 							<a href="https://www.sololearn.com/certificates/CT-7PBKJV6U" target="_blank" rel="noopener noreferrer">
-								<img src="/assets/html-cert.png" alt="HTML Certificate" className="w-64 h-auto" />
+								<img src="/assets/certs/html-cert.png" alt="HTML Certificate" className="w-64 h-auto" />
 							</a>
 						</div>
 
 						{/* Certificate 3 */}
 						<div className="cert shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-lg overflow-hidden">
 							<a href="https://www.sololearn.com/certificates/CT-OZBC2TAM" target="_blank" rel="noopener noreferrer">
-								<img src="/assets/css-cert.png" alt="CSS Certificate" className="w-64 h-auto" />
+								<img src="/assets/certs/css-cert.png" alt="CSS Certificate" className="w-64 h-auto" />
 							</a>
 						</div>
 
 						{/* Certificate 4 */}
 						<div className="cert shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-lg overflow-hidden">
 							<a href="https://www.sololearn.com/certificates/CT-LPFFZWAK" target="_blank" rel="noopener noreferrer">
-								<img src="/assets/js-cert.png" alt="JS Certificate" className="w-64 h-auto" />
+								<img src="/assets/certs/js-cert.png" alt="JS Certificate" className="w-64 h-auto" />
 							</a>
 						</div>
 
 						{/* Certificate 5 */}
 						<div className="cert shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-lg overflow-hidden">
 							<a href="https://www.sololearn.com/certificates/CT-6W7K6X93" target="_blank" rel="noopener noreferrer">
-								<img src="/assets/php-cert.png" alt="PHP Certificate" className="w-64 h-auto" />
+								<img src="/assets/certs/php-cert.png" alt="PHP Certificate" className="w-64 h-auto" />
 							</a>
 						</div>
 
 						{/* Certificate 6 */}
 						<div className="cert shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-lg overflow-hidden">
 							<a href="https://www.sololearn.com/certificates/CT-0IXCNSSN" target="_blank" rel="noopener noreferrer">
-								<img src="/assets/sql-cert.png" alt="SQL Certificate" className="w-64 h-auto" />
+								<img src="/assets/certs/sql-cert.png" alt="SQL Certificate" className="w-64 h-auto" />
 							</a>
 						</div>
 					</div>

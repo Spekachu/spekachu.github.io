@@ -4,8 +4,8 @@ import "./SkillPage.css";
 const SkillPage = () => {
   return (
     <div className="skill-container my-container px-8 lg:px-4">
-			<div className="skill-header">
-				<span>ski</span>lls
+			<div className="section-header">
+				<p><span>ski</span>lls</p>
 			</div>
 			<div>
 				<div className="mb-8">

@@ -9,7 +9,7 @@ const ProjectPage = () => {
       </div>
       <div className="project-list">
 				<div className="project">
-          <p>e-commerce wordpress website</p>
+          <p>e-commerce, wordpress, react, interactivity api</p>
           <p>Our Little Shop</p>
           <p>
             <a href="https://ourlittledev.wpenginepowered.com/" target="_blank" rel="noreferrer">
@@ -18,7 +18,7 @@ const ProjectPage = () => {
           </p>
         </div>
         <div className="project">
-          <p>Tool</p>
+          <p>tool, javascript, css</p>
           <p>Linear Gradient Generator</p>
           <p>
             <a href="https://spekachu.github.io/Linear-Gradient-Generator/" target="_blank" rel="noreferrer">
@@ -27,7 +27,7 @@ const ProjectPage = () => {
           </p>
         </div>
         <div className="project">
-          <p>Game</p>
+          <p>game, javascript, css</p>
           <p>Tic-Tac-Toe</p>
           <p>
             <a href="https://spekachu.github.io/Tic-Tac-Toe/" target="_blank" rel="noreferrer">
@@ -36,7 +36,7 @@ const ProjectPage = () => {
           </p>
         </div>
         <div className="project">
-          <p>Instrument</p>
+          <p>Instrument, javascript, css</p>
           <p>JavaScript Drum Kit</p>
           <p>
             <a href="https://spekachu.github.io/JavaScript-Drum-Kit/" target="_blank" rel="noreferrer">
@@ -45,7 +45,7 @@ const ProjectPage = () => {
           </p>
         </div>
         <div className="project">
-          <p>Interactive</p>
+          <p>Interactive, javascript, css</p>
           <p>Drawing Grid</p>
           <p>
             <a href="https://spekachu.github.io/DrawingGrid/" target="_blank" rel="noreferrer">
@@ -54,7 +54,7 @@ const ProjectPage = () => {
           </p>
         </div>
         <div className="project">
-          <p>Tool</p>
+          <p>Tool, javascript, css</p>
           <p>JavaScript Calculator</p>
           <p>
             <a href="https://codepen.io/Spekachu/full/jWwEpW/" target="_blank" rel="noreferrer">

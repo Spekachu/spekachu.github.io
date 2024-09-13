@@ -4,7 +4,7 @@ const ReviewsSection = () => {
 	return (
 		<div className="my-container px-8 lg:px-4">
 			<div className="section-header">
-				re<span>views</span>
+				<p>re<span>views</span></p>
 			</div>
 			<div className="bg-white p-6 max-w-4xl mx-auto shadow-lg rounded-lg">
       {/* Reviewer Information */}

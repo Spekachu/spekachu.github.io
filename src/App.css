@@ -10,10 +10,15 @@
 }
 
 .section-header {
-  font-size: var(--section-heading-size);
-  letter-spacing: var(--heading-letter-spacing);
 	margin-bottom: 2rem;
 }
+
+.section-header > p:first-child {
+  font-size: var(--section-heading-size);
+  letter-spacing: var(--heading-letter-spacing);
+	line-height: 5rem;
+}
+
 @media only screen and (max-width: 800px) {
   .btn-back-to-top > span {
     display: none;
@@ -22,15 +27,16 @@
   .btn-back-to-top {
     width: 30px !important;
   }
-	.section-header {
+	.section-header > p:first-child {
 		font-size: var(--section-heading-size-mobile);
+		line-height: 3rem;
 	}
 }
+
 .my-container {
 	max-width: 55rem;
 	margin-inline: auto;
 }
-
 
 .section-header span {
 	color: var(--highlight-color);
