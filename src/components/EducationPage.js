@@ -66,9 +66,16 @@ const EducationPage = () => {
           </p>
         </div>
         <div className="my-12">
-					<p className="text-xl mb-6">
-						Over the years, I have pursued self-education through various online platforms, including FreeCodeCamp and The Odin Project. Below are some of the certifications I've earned along the way:
-					</p>
+					<div className="mb-12">
+						<p className="text-3xl font-bold mb-4">
+							Certifications
+						</p>
+						
+						<p className="text-lg lg:text-xl text-stone-900 leading-relaxed mb-8">
+							Over the years, I have pursued self-education through various online platforms, including FreeCodeCamp and The Odin Project. Below are some of the certifications I've earned along the way:
+						</p>
+					</div>
+
 
 					<div className="certs-wrapper flex flex-wrap gap-6 justify-center">
 						{/* Certificate 1 */}
