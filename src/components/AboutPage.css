@@ -47,9 +47,6 @@
 }
 
 .about-right > p {
-  margin-bottom: 20px;
+  margin-bottom: 1rem;
 }
 
-.about-right > p > span {
-  font-weight: 700;
-}
