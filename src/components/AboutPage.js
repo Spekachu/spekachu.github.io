@@ -20,7 +20,7 @@ const AboutPage = () => {
 					<p>
 						Outside of coding, I'm also passionate about music, singing, chess, and art, and I love spending time in nature and staying active.
 					</p>
-					<p className="relative before:block before:absolute before:h-full before:w-px before:bg-highlight before:-left-2">An exciting project I am currently working is a vocabulary word map app that displays vocab words as a contextual map. I am passionate about languages and am building something I myself would find very useful.</p>
+					<p className="relative before:block before:absolute before:h-full before:w-px before:bg-highlight before:-left-2">An exciting project I am currently developing is a vocabulary word map app that displays vocab words as a contextual map. I am passionate about languages and am building something I myself would find very useful.</p>
 				</div>
 			</div>
 		</div>
