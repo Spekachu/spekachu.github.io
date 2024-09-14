@@ -1,5 +1,6 @@
 import React from "react";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
+import { CalendarMonth } from "@mui/icons-material";
 import "./ExperiencePage.css";
 
 const ExperiencePage = () => {
@@ -35,11 +36,11 @@ const ExperiencePage = () => {
 						</ul>
 					</details>
           <p>
-            <span>Oct'20 - Present</span>
-            <a href="/">
+            <span><CalendarMonth /> Oct'20 - Present</span>
+            <span>
               <LocationOnIcon />
               Graz, Austria
-            </a>
+            </span>
           </p>
         </div>
         <div className="education">
@@ -58,11 +59,11 @@ const ExperiencePage = () => {
 						</ul>
 					</details>
           <p>
-            <span>Mar'16 - Nov'17</span>
-            <a href="/">
+            <span><CalendarMonth /> Mar'16 - Nov'17</span>
+            <span>
               <LocationOnIcon />
               Valencia, California, USA
-            </a>
+            </span>
           </p>
         </div>
 
