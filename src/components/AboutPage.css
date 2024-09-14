@@ -34,12 +34,12 @@
 }
 
 .about-left {
-  width: 40%;
+  width: 35%;
   font-size: var(--section-sub-heading-size) !important;
 }
 
 .about-right {
-  width: 50%;
+  width: 60%;
   font-weight: 400;
   display: flex;
   justify-content: space-between;

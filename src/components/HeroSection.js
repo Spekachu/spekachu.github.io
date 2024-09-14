@@ -4,7 +4,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 
 const HeroSection = () => {
   return (
-    <div className="my-container px-8 lg:px-4 pt-4 sm:pt-6 md:pt-8 pb-8 justify-around mx-auto sm:flex">
+    <div className="my-container px-8 lg:px-4 pt-4 sm:pt-6 md:pt-8 justify-around mx-auto sm:flex">
       <div className="flex flex-col justify-between pe-4">
         <div className="text-6xl">
           <p>
@@ -31,7 +31,7 @@ const HeroSection = () => {
 
 				</div>
       </div>
-      <div id="ProfilePhoto" className="bg-cover bg-center rounded-lg aspect-square shadow flex flex-col justify-end max-h-[25rem] max-w-[25rem] h-auto w-full md:sw-2/4 shrink ms-auto" style={{ backgroundImage: "url('/assets/spencer-profile.jpeg')" }}>
+      <div id="ProfilePhoto" className="bg-cover bg-center rounded-lg aspect-square shadow flex flex-col justify-end max-h-[31.75rem] max-w-[31.75rem] h-auto w-full md:sw-2/4 shrink ms-auto" style={{ backgroundImage: "url('/assets/spencer-profile.jpeg')" }}>
       </div>
 			
     </div>

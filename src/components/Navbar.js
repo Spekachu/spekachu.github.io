@@ -75,6 +75,15 @@ const Navbar = () => {
 								</Link>
 								<Link
 									onClick={() => setIsMenuOpen(!isMenuOpen)}
+									to="certifications"
+									spy={true}
+									smooth={true}
+									duration={500}
+								>
+									certifications
+								</Link>
+								<Link
+									onClick={() => setIsMenuOpen(!isMenuOpen)}
 									to="contact"
 									spy={true}
 									smooth={true}

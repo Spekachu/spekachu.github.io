@@ -7,8 +7,9 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import ProjectPage from "./components/ProjectPage";
 import SkillPage from "./components/SkillPage";
-import EducationPage from "./components/EducationPage";
+import ExperiencePage from "./components/ExperiencePage";
 import ReviewsSection from "./components/Reviews";
+import CertificationsPage from "./components/CertificationsPage";
 
 export default function App() {
   const [showBackToTopBtn, setShowBackToTopBtn] = useState(false);
@@ -45,7 +46,10 @@ export default function App() {
 					<AboutPage />
 				</div>
 				<div className="app-section pt-16" id="experience">
-					<EducationPage />
+					<ExperiencePage />
+				</div>
+				<div className="app-section pt-16" id="certifications">
+					<CertificationsPage />
 				</div>
 				<div className="app-section pt-16" id="reviews">
 					<ReviewsSection />
