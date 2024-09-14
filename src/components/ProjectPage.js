@@ -6,7 +6,7 @@ const ProjectPage = () => {
 			<div className="project-container my-container px-8 lg:px-4 ">
 				<div className="section-header">
 					<p><span>pro</span>jects</p>
-					<p className='mt-4'>Most of my experience comes from the companies I've worked for, but here some small projects I've built as part of my self-education.</p>
+					<p className='mt-4'>Most of my experience comes from the companies I've worked for, but here are some small projects I've built as part of my self-education.</p>
 				</div>
 			</div>
 
