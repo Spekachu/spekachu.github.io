@@ -9,7 +9,7 @@ const HeroSection = () => {
         <div className="text-6xl">
           <p>
             Meet <span className="font-medium text-highlight">Spencer</span>,<br></br>
-        		<span className="text-4xl inline-block mt-4">a software developer.</span>
+        		<span className="text-4xl inline-block mt-4">a creative software developer.</span>
           </p>
         </div>
 
