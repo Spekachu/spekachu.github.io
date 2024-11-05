@@ -36,7 +36,7 @@ const ExperiencePage = () => {
 						</ul>
 					</details>
           <p>
-            <span><CalendarMonth /> Oct'20 - Present</span>
+            <span><CalendarMonth /> Oct'20 - Sep'24</span>
             <span>
               <LocationOnIcon />
               Graz, Austria
