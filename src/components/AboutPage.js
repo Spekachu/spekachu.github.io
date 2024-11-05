@@ -1,5 +1,6 @@
 import React from "react";
 import "./AboutPage.css";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 const AboutPage = () => {
 	return (
@@ -20,7 +21,9 @@ const AboutPage = () => {
 					<p>
 						Outside of coding, I'm also passionate about music, singing, chess, art, language learning, and I love spending time in nature and staying active.
 					</p>
-					<p className="relative before:block before:absolute before:h-full before:w-px before:bg-highlight before:-left-2">I am currently developing an exciting <span className="text-highlight">language learning app</span> that displays vocabulary lists as a contextual map for users to explore. As I am currently studying <span className="text-highlight">German</span>, I am building something I myself would find very useful.</p>
+					<p className="relative before:block before:absolute before:h-full before:w-px before:bg-highlight before:-left-2">I am currently developing an exciting <a href="https://www.wordwanderer.app/" target="_blank" className="text-highlight underline hover:text-green-500" rel="noreferrer noopener">language learning app <FaExternalLinkAlt className="inline-block ml-1" /></a> that displays vocabulary lists as a contextual map for users to explore. As I am currently studying <span className="text-highlight">German</span>, I am building something I myself would find very useful.</p>
+					<img src="/assets/project-screenshots/word-wanderer.png" alt="Word Wanderer screenshot" />
+
 				</div>
 			</div>
 		</div>
