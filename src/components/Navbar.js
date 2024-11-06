@@ -7,7 +7,7 @@ import CloseIcon from "@mui/icons-material/Close";
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-		<div className="bg-slate-50/75 backdrop-blur-md sticky top-0 z-10">
+		<div className="bg-slate-50/75 backdrop-blur-md sticky top-0 z-50">
 			<div className="my-container px-8 lg:px-4 py-4 mx-auto flex justify-between">
 				<div className="">
 					<Link to="home" spy={true} smooth={true} duration={500}>
@@ -57,21 +57,21 @@ const Navbar = () => {
 								</Link>
 								<Link
 									onClick={() => setIsMenuOpen(!isMenuOpen)}
-									to="skills"
-									spy={true}
-									smooth={true}
-									duration={500}
-								>
-									skills
-								</Link>
-								<Link
-									onClick={() => setIsMenuOpen(!isMenuOpen)}
 									to="projects"
 									spy={true}
 									smooth={true}
 									duration={500}
 								>
 									projects
+								</Link>
+								<Link
+									onClick={() => setIsMenuOpen(!isMenuOpen)}
+									to="skills"
+									spy={true}
+									smooth={true}
+									duration={500}
+								>
+									skills
 								</Link>
 								<Link
 									onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -82,7 +82,7 @@ const Navbar = () => {
 								>
 									certifications
 								</Link>
-								<Link
+								{/* <Link
 									onClick={() => setIsMenuOpen(!isMenuOpen)}
 									to="contact"
 									spy={true}
@@ -90,7 +90,7 @@ const Navbar = () => {
 									duration={500}
 								>
 									contact
-								</Link>
+								</Link> */}
 
 							</div>
 						</div>
@@ -108,15 +108,15 @@ const Navbar = () => {
 					<Link className="px-2" to="reviews" spy={true} smooth={true} duration={500}>
 						reviews
 					</Link>
-					<Link className="px-2" to="skills" spy={true} smooth={true} duration={500}>
-						skills
-					</Link>
 					<Link className="px-2" to="projects" spy={true} smooth={true} duration={500}>
 						projects
 					</Link>
-					<Link className="px-2" to="contact" spy={true} smooth={true} duration={500}>
-						contact
+					<Link className="px-2" to="skills" spy={true} smooth={true} duration={500}>
+						skills
 					</Link>
+					{/* <Link className="px-2" to="contact" spy={true} smooth={true} duration={500}>
+						contact
+					</Link> */}
 				</div>
 			</div>
 			
