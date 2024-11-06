@@ -10,6 +10,31 @@ const CertificationsPage = () => {
 			link: "https://learn.codesignal.com/certificates/cm0ezx2je001khgzalxcunriy/course-paths/10"
 		},
 		{
+			title: "JavaScript Level 1",
+			image: "/assets/certs/js_1_certificate.png",
+			link: "#"
+		},
+		{
+			title: "JavaScript Level 2",
+			image: "/assets/certs/js_2_certificate.png",
+			link: "#"
+		},
+		{
+			title: "JavaScript Level 3",
+			image: "/assets/certs/js_3_certificate.png",
+			link: "#"
+		},
+		{
+			title: "JavaScript Level 4",
+			image: "/assets/certs/js_4_certificate.png",
+			link: "#"
+		},
+		{
+			title: "Python Certificate",
+			image: "/assets/certs/python_certificate_1.png",
+			link: "#"
+		},
+		{
 			title: "HTML Certificate",
 			image: "/assets/certs/html-cert.png",
 			link: "https://www.sololearn.com/certificates/CT-7PBKJV6U"
@@ -34,31 +59,6 @@ const CertificationsPage = () => {
 			image: "/assets/certs/sql-cert.png",
 			link: "https://www.sololearn.com/certificates/CT-0IXCNSSN"
 		},
-		{
-			title: "JavaScript Level 1",
-			image: "/assets/certs/js_1_certificate.png",
-			link: "#"
-		},
-		{
-			title: "JavaScript Level 2",
-			image: "/assets/certs/js_2_certificate.png",
-			link: "#"
-		},
-		{
-			title: "JavaScript Level 3",
-			image: "/assets/certs/js_3_certificate.png",
-			link: "#"
-		},
-		{
-			title: "JavaScript Level 4",
-			image: "/assets/certs/js_4_certificate.png",
-			link: "#"
-		},
-		{
-			title: "Python Certificate",
-			image: "/assets/certs/python_certificate_1.png",
-			link: "#"
-		}
 	];
 
 	const nextCert = () => {
@@ -70,7 +70,7 @@ const CertificationsPage = () => {
 	};
 
 	return (
-			<div className="my-container px-14 lg:px-4">
+			<div className="my-container px-8 lg:px-4">
 				<div className="section-header">
 					<p><span>cert</span>ifications</p>
 					<p className="text-base lg:text-lg text-stone-900 leading-relaxed mt-2">
@@ -82,7 +82,7 @@ const CertificationsPage = () => {
 					{/* Navigation Buttons */}
 					<button
 						onClick={prevCert}
-						className="absolute left-0 top-1/2 transform -translate-y-1/2 -translate-x-12 bg-white rounded-full p-2 shadow-lg hover:bg-gray-100 transition-colors z-10"
+						className="absolute left-0 top-1/2 transform -translate-y-1/2 -translate-x-6 md:-translate-x-12 bg-white rounded-full p-2 shadow-lg hover:bg-gray-100 transition-colors z-10"
 						aria-label="Previous certificate"
 					>
 						<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -91,7 +91,7 @@ const CertificationsPage = () => {
 					</button>
 					<button
 						onClick={nextCert}
-						className="absolute right-0 top-1/2 transform -translate-y-1/2 translate-x-12 bg-white rounded-full p-2 shadow-lg hover:bg-gray-100 transition-colors z-10"
+						className="absolute right-0 top-1/2 transform -translate-y-1/2 translate-x-6 md:translate-x-12 bg-white rounded-full p-2 shadow-lg hover:bg-gray-100 transition-colors z-10"
 						aria-label="Next certificate"
 					>
 						<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">

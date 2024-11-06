@@ -69,10 +69,10 @@ const ProjectPage = () => {
 
 	return (
 		<>
-			<div className="project-container my-container px-14 lg:px-4">
+			<div className="project-container my-container px-8 lg:px-4">
 				<div className="section-header">
 					<p><span>pro</span>jects</p>
-					<p className='mt-4'>Most of my experience comes from the companies I've worked for, but here are some small projects I've built as part of my self-education.</p>
+					<p className='mt-4'>Most of my experience comes from the companies I've worked for, but here are some projects I've built as part of my self-education.</p>
 				</div>
 
 				{/* Additional Projects */}
@@ -81,7 +81,7 @@ const ProjectPage = () => {
 						{/* Navigation Buttons */}
 						<button
 							onClick={prevProject}
-							className="absolute left-0 top-1/2 transform -translate-y-1/2 -translate-x-12 bg-white rounded-full p-2 shadow-lg hover:bg-gray-100 transition-colors z-10"
+							className="absolute left-0 top-1/2 transform -translate-y-1/2 -translate-x-6 md:-translate-x-12 bg-white rounded-full p-2 shadow-lg hover:bg-gray-100 transition-colors z-10"
 							aria-label="Previous project"
 						>
 							<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -90,7 +90,7 @@ const ProjectPage = () => {
 						</button>
 						<button
 							onClick={nextProject}
-							className="absolute right-0 top-1/2 transform -translate-y-1/2 translate-x-12 bg-white rounded-full p-2 shadow-lg hover:bg-gray-100 transition-colors z-10"
+							className="absolute right-0 top-1/2 transform -translate-y-1/2 translate-x-6 md:translate-x-12 bg-white rounded-full p-2 shadow-lg hover:bg-gray-100 transition-colors z-10"
 							aria-label="Next project"
 						>
 							<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">

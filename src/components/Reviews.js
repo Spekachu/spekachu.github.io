@@ -57,15 +57,15 @@ const ReviewsSection = () => {
 	};
 
 	return (
-		<div className="my-container px-14 lg:px-4">
+		<div className="my-container px-8 lg:px-4">
 			<div className="section-header">
 				<p>re<span>views</span></p>
 			</div>
-			<div className="relative max-w-4xl mx-auto">
+			<div className="relative max-w-2xl mx-auto">
 				{/* Navigation Buttons */}
 				<button
 					onClick={prevReview}
-					className="absolute left-0 top-1/2 transform -translate-y-1/2 -translate-x-12 bg-white rounded-full p-2 shadow-lg hover:bg-gray-100 transition-colors z-10"
+					className="absolute left-0 top-1/2 transform -translate-y-1/2 -translate-x-6 md:-translate-x-12 bg-white rounded-full p-2 shadow-lg hover:bg-gray-100 transition-colors z-10"
 					aria-label="Previous review"
 				>
 					<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -74,7 +74,7 @@ const ReviewsSection = () => {
 				</button>
 				<button
 					onClick={nextReview}
-					className="absolute right-0 top-1/2 transform -translate-y-1/2 translate-x-12 bg-white rounded-full p-2 shadow-lg hover:bg-gray-100 transition-colors z-10"
+					className="absolute right-0 top-1/2 transform -translate-y-1/2 translate-x-6 md:translate-x-12 bg-white rounded-full p-2 shadow-lg hover:bg-gray-100 transition-colors z-10"
 					aria-label="Next review"
 				>
 					<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">

@@ -69,7 +69,6 @@ const ContactPage = () => {
       />
       <div className="section-header">
 				<p>cont<span>act</span></p>
-				<p className="mt-2 text-base lg:text-lg">I am open to work!</p>
 			</div>
       <div className="contact-info">
 				<form className="contact-form" onSubmit={onFormSubmit}>

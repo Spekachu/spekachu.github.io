@@ -10,10 +10,10 @@ const SkillPage = () => {
 			<div>
 				<div className="mb-8">
 					<h2 className="text-2xl font-bold mb-4">Programming Languages</h2>
-					<ul className="flex flex-wrap gap-4">
-						<li className="bg-gray-200 p-2 rounded">JavaScript</li>
-						<li className="bg-gray-200 p-2 rounded">C#</li>
-						<li className="bg-gray-200 p-2 rounded">PHP</li>
+					<ul className="flex flex-wrap gap-2">
+						<li className="bg-gray-200 py-1 px-2 rounded-full">JavaScript</li>
+						<li className="bg-gray-200 py-1 px-2 rounded-full">C#</li>
+						<li className="bg-gray-200 py-1 px-2 rounded-full">PHP</li>
 					</ul>
 				</div>
 
@@ -21,70 +21,70 @@ const SkillPage = () => {
 					<h2 className="text-2xl font-bold mb-4">Web Development</h2>
 					<div className="mb-6">
 						<h3 className="text-xl mb-2 ">Frontend Development</h3>
-						<ul className="flex flex-wrap gap-4">
-							<li className="bg-gray-200 p-2 rounded">HTML</li>
-							<li className="bg-gray-200 p-2 rounded">CSS</li>
-							<li className="bg-gray-200 p-2 rounded">SCSS</li>
-							<li className="bg-gray-200 p-2 rounded">JavaScript (ES6+)</li>
-							<li className="bg-gray-200 p-2 rounded">React</li>
-							<li className="bg-gray-200 p-2 rounded">React Routing</li>
-							<li className="bg-gray-200 p-2 rounded">Next.js</li>
-							<li className="bg-gray-200 p-2 rounded">jQuery</li>
-							<li className="bg-gray-200 p-2 rounded">Bootstrap</li>
-							<li className="bg-gray-200 p-2 rounded">Tailwind</li>
+						<ul className="flex flex-wrap gap-2">
+							<li className="bg-gray-200 py-1 px-2 rounded-full">HTML</li>
+							<li className="bg-gray-200 py-1 px-2 rounded-full">CSS</li>
+							<li className="bg-gray-200 py-1 px-2 rounded-full">SCSS</li>
+							<li className="bg-gray-200 py-1 px-2 rounded-full">JavaScript (ES6+)</li>
+							<li className="bg-gray-200 py-1 px-2 rounded-full">React</li>
+							<li className="bg-gray-200 py-1 px-2 rounded-full">React Routing</li>
+							<li className="bg-gray-200 py-1 px-2 rounded-full">Next.js</li>
+							<li className="bg-gray-200 py-1 px-2 rounded-full">jQuery</li>
+							<li className="bg-gray-200 py-1 px-2 rounded-full">Bootstrap</li>
+							<li className="bg-gray-200 py-1 px-2 rounded-full">Tailwind</li>
 						</ul>
 					</div>
 					<div className="mb-6">
 						<h3 className="text-xl mb-2 ">Backend Development</h3>
-						<ul className="flex flex-wrap gap-4">
-						<li className="bg-gray-200 p-2 rounded">Node.js</li>
-							<li className="bg-gray-200 p-2 rounded">ASP.NET</li>
-							<li className="bg-gray-200 p-2 rounded">PHP</li>
-							<li className="bg-gray-200 p-2 rounded">SQL</li>
+						<ul className="flex flex-wrap gap-2">
+						<li className="bg-gray-200 py-1 px-2 rounded-full">Node.js</li>
+							<li className="bg-gray-200 py-1 px-2 rounded-full">ASP.NET</li>
+							<li className="bg-gray-200 py-1 px-2 rounded-full">PHP</li>
+							<li className="bg-gray-200 py-1 px-2 rounded-full">SQL</li>
 						</ul>
 					</div>
 					<div>
 						<h3 className="text-xl mb-2 ">Content Management</h3>
-						<ul className="flex flex-wrap gap-4">
-							<li className="bg-gray-200 p-2 rounded">WordPress</li>
+						<ul className="flex flex-wrap gap-2">
+							<li className="bg-gray-200 py-1 px-2 rounded-full">WordPress</li>
 						</ul>
 					</div>
 				</div>
 
 				<div className="mb-8">
 					<h2 className="text-2xl font-bold mb-4">Development Tools</h2>
-					<ul className="flex flex-wrap gap-4">
-						<li className="bg-gray-200 p-2 rounded">GitHub</li>
-						<li className="bg-gray-200 p-2 rounded">VS Code</li>
-						<li className="bg-gray-200 p-2 rounded">PostgreSQL</li>
-						<li className="bg-gray-200 p-2 rounded">Docker</li>
-						<li className="bg-gray-200 p-2 rounded">LocalWP</li>
-						<li className="bg-gray-200 p-2 rounded">Papertrail</li>
-						<li className="bg-gray-200 p-2 rounded">Filezilla</li>
+					<ul className="flex flex-wrap gap-2">
+						<li className="bg-gray-200 py-1 px-2 rounded-full">GitHub</li>
+						<li className="bg-gray-200 py-1 px-2 rounded-full">VS Code</li>
+						<li className="bg-gray-200 py-1 px-2 rounded-full">PostgreSQL</li>
+						<li className="bg-gray-200 py-1 px-2 rounded-full">Docker</li>
+						<li className="bg-gray-200 py-1 px-2 rounded-full">LocalWP</li>
+						<li className="bg-gray-200 py-1 px-2 rounded-full">Papertrail</li>
+						<li className="bg-gray-200 py-1 px-2 rounded-full">Filezilla</li>
 					</ul>
 				</div>
 
 				<div className="mb-8">
 					<h2 className="text-2xl font-bold mb-4">Frameworks & Libraries</h2>
-					<ul className="flex flex-wrap gap-4">
-						<li className="bg-gray-200 p-2 rounded">React</li>
-						<li className="bg-gray-200 p-2 rounded">Next.js</li>
-						<li className="bg-gray-200 p-2 rounded">Bootstrap</li>
-						<li className="bg-gray-200 p-2 rounded">Tailwind</li>
-						<li className="bg-gray-200 p-2 rounded">jQuery</li>
-						<li className="bg-gray-200 p-2 rounded">Express</li>
+					<ul className="flex flex-wrap gap-2">
+						<li className="bg-gray-200 py-1 px-2 rounded-full">React</li>
+						<li className="bg-gray-200 py-1 px-2 rounded-full">Next.js</li>
+						<li className="bg-gray-200 py-1 px-2 rounded-full">Bootstrap</li>
+						<li className="bg-gray-200 py-1 px-2 rounded-full">Tailwind</li>
+						<li className="bg-gray-200 py-1 px-2 rounded-full">jQuery</li>
+						<li className="bg-gray-200 py-1 px-2 rounded-full">Express</li>
 					</ul>
 				</div>
 
 				<div className="mb-8">
 					<h2 className="text-2xl font-bold mb-4">General Programming Skills</h2>
-					<ul className="flex flex-wrap gap-4">
-						<li className="bg-gray-200 p-2 rounded">Algorithms</li>
-						<li className="bg-gray-200 p-2 rounded">Data Structures</li>
-						<li className="bg-gray-200 p-2 rounded">Responsive Design</li>
-						<li className="bg-gray-200 p-2 rounded">Mobile Development</li>
-						<li className="bg-gray-200 p-2 rounded">REST APIs</li>
-						<li className="bg-gray-200 p-2 rounded">Database Management</li>
+					<ul className="flex flex-wrap gap-2">
+						<li className="bg-gray-200 py-1 px-2 rounded-full">Algorithms</li>
+						<li className="bg-gray-200 py-1 px-2 rounded-full">Data Structures</li>
+						<li className="bg-gray-200 py-1 px-2 rounded-full">Responsive Design</li>
+						<li className="bg-gray-200 py-1 px-2 rounded-full">Mobile Development</li>
+						<li className="bg-gray-200 py-1 px-2 rounded-full">REST APIs</li>
+						<li className="bg-gray-200 py-1 px-2 rounded-full">Database Management</li>
 					</ul>
 				</div>
 			</div>

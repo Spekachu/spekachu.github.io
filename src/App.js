@@ -35,7 +35,7 @@ export default function App() {
   }
   return (
     <>
-			<div id="home" className="bg-slate-50 text-emerald-900">
+			<div id="home" className="bg-slate-50 text-emerald-900 pb-20">
 				
 				<Navbar />
 				<div className="app-section sm:pt-8">
@@ -48,21 +48,21 @@ export default function App() {
 				<div className="app-section pt-16" id="experience">
 					<ExperiencePage />
 				</div>
-				<div className="app-section pt-16" id="certifications">
-					<CertificationsPage />
-				</div>
 				<div className="app-section pt-16" id="reviews">
 					<ReviewsSection />
-				</div>
-				<div className="app-section pt-16" id="skills">
-					<SkillPage />
 				</div>
 				<div className="app-section pt-16" id="projects">
 					<ProjectPage />
 				</div>
-				<div className="app-section pt-16" id="contact">
-					<ContactPage />
+				<div className="app-section pt-16" id="skills">
+					<SkillPage />
 				</div>
+				<div className="app-section pt-16" id="certifications">
+					<CertificationsPage />
+				</div>
+				{/* <div className="app-section pt-16" id="contact">
+					<ContactPage />
+				</div> */}
 				{showBackToTopBtn && (
 					<button className="btn btn-back-to-top hover:bg-emerald-900 hover:text-white" onClick={scrollToTop}>
 						<span className="text-sm"> Back to Top</span>
