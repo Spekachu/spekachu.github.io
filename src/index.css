@@ -1,42 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-* {
-  font-family: "Poppins", sans-serif;
-  margin: 0;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem;
+  }
+
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    transition: background-color 200ms ease, color 200ms ease;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
 }
 
-body {
-  width: 100%;
-}
+@layer components {
+  .portfolio-container {
+    @apply max-w-5xl mx-auto px-6 sm:px-8;
+  }
 
-textarea:focus,
-input:focus {
-  outline: none;
-}
+  .section-eyebrow {
+    @apply font-mono text-xs uppercase tracking-[0.18em] text-[#10996d] dark:text-[#6ac9a2] font-medium;
+  }
 
-input {
-  height: 30px;
-}
+  .section-title {
+    @apply font-display text-3xl sm:text-4xl font-bold tracking-tight text-[#0b2e23] dark:text-[#edf3f0] mt-2;
+  }
 
-input,
-textarea,
-button {
-  border-radius: 5px;
-  border: none;
-  padding: 0px 10px;
-}
+  .surface-card {
+    @apply bg-white dark:bg-[#10201b] border border-[#e4e8e4] dark:border-[#1d352d] rounded-2xl shadow-card transition-all duration-200;
+  }
 
-textarea {
-  padding: 10px;
-}
-
-button:hover {
-  cursor: pointer;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-  cursor: pointer;
+  .tech-pill {
+    @apply inline-flex items-center font-mono text-xs px-2.5 py-1 rounded-md bg-[#eef4f1] text-[#164a38] dark:bg-[#162d25] dark:text-[#a8e2c9] border border-[#dce7e1] dark:border-[#234338];
+  }
 }
