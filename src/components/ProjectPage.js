@@ -11,7 +11,7 @@ const ProjectPage = () => {
 		{
 			title: "Word Wanderer",
 			description: "language learning app built with react, node, postgrseql, tailwind",
-			link: "https://www.wordwanderer.app/",
+			link: "https://word-wanderer.onrender.com/",
 			imgSrc: "/assets/project-screenshots/word-wanderer.png",
 			altText: "Word Wanderer Screenshot"
 		},
